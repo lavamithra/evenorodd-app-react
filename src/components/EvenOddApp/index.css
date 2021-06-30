@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.inner-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 50%;
+  border: 2px double white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.bg-container {
+  background-color: #334155;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inc-btn {
+  border: none;
+  border-radius: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #334155;
+  font-weight: 100;
+}
